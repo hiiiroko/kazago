@@ -1,0 +1,33 @@
+# Local toolchain files
+package.json
+pnpm-lock.yaml
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Optional: build outputs
+dist/
+build/
+*.zip
+*.crx
+
+# Optional: environment files
+.env
+.env.local
