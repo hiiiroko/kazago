@@ -10,7 +10,7 @@
 <a href="mailto:hiiiroko@proton.me">
 	<img src="https://custom-icon-badges.herokuapp.com/badge/mail-contact_me-AE75DA?logoColor=AE75DA&style=for-the-badge&logo=mail&labelColor=363B40" alt="Contact Me"/>
 </a>
-<a href="https://github.com/hiiiroko/kazago">
+<a href="https://codeload.github.com/hiiiroko/kazago/zip/refs/heads/main">
 	<img src="https://custom-icon-badges.herokuapp.com/badge/releases-download-33A1E0?logoColor=33A1E0&style=for-the-badge&logo=download&labelColor=363B40" alt="Download Releases"/>
 </a>
 
@@ -55,11 +55,6 @@ kazago/
     ├── LOGO.png
     └── ChillBitmap.ttf  # pixel font
 ```
-
-## Links
-
-- [Issue Tracker](https://github.com/hiiiroko/kazago/issues)
-- [Discussions](https://github.com/hiiiroko/kazago/discussions)
 
 ## Acknowledgements
 
