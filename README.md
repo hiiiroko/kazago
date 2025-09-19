@@ -5,14 +5,13 @@
 **A browser extension that helps Arthur Morgan reserve his favorite seat in the Deep South tavern.**
 
 <a href="https://www.rockstargames.com/reddeadredemption2/downloads">
-	<img src="https://custom-icon-badges.herokuapp.com/badge/rdr2-learn_more-FCAF17?logoColor=FCAF17&style=for-the-badge&logo=rockstargames&labelColor=363B40" alt="Learn about RDR2"/>
-</a>
+	<img src="https://custom-icon-badges.herokuapp.com/badge/rdr2-learn_more-FCAF17?logoColor=FCAF17&style=for-the-badge&logo=rockstargames&labelColor=363B40" alt="Learn about RDR2"/></a>
+  
 <a href="mailto:hiiiroko@proton.me">
-	<img src="https://custom-icon-badges.herokuapp.com/badge/mail-contact_me-AE75DA?logoColor=AE75DA&style=for-the-badge&logo=mail&labelColor=363B40" alt="Contact Me"/>
-</a>
+	<img src="https://custom-icon-badges.herokuapp.com/badge/mail-contact_me-AE75DA?logoColor=AE75DA&style=for-the-badge&logo=mail&labelColor=363B40" alt="Contact Me"/></a>
+  
 <a href="https://codeload.github.com/hiiiroko/kazago/zip/refs/heads/main">
-	<img src="https://custom-icon-badges.herokuapp.com/badge/releases-download-33A1E0?logoColor=33A1E0&style=for-the-badge&logo=download&labelColor=363B40" alt="Download Releases"/>
-</a>
+	<img src="https://custom-icon-badges.herokuapp.com/badge/releases-download-33A1E0?logoColor=33A1E0&style=for-the-badge&logo=download&labelColor=363B40" alt="Download Releases"/></a>
 
 ## Features
 
