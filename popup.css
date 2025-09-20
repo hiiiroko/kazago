@@ -160,6 +160,16 @@ select {
   width: 180px;
 }
 
+/* Add this focus behavior */
+.text-input:focus,
+.time-input:focus,
+select:focus {
+  outline: none; /* Remove the default focus outline */
+  border: 2px inset #fff; /* Keep the border style consistent with normal state */
+  background: #fff; /* Ensure the background color stays the same */
+  color: inherit; /* Keep the text color consistent */
+}
+
 .time-input-row {
   display: flex;
   align-items: center;
