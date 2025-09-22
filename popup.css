@@ -160,14 +160,12 @@ select {
   width: 180px;
 }
 
-/* Add this focus behavior */
 .text-input:focus,
 .time-input:focus,
 select:focus {
-  outline: none; /* Remove the default focus outline */
-  border: 2px inset #fff; /* Keep the border style consistent with normal state */
-  background: #fff; /* Ensure the background color stays the same */
-  color: inherit; /* Keep the text color consistent */
+  outline: none;
+  background: inherit;
+  color: inherit;
 }
 
 .time-input-row {
@@ -215,6 +213,15 @@ select:focus {
 .button:disabled {
   color: #888;
   cursor: not-allowed;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  box-shadow: 0 0 0 2px rgba(9, 81, 130, 0.25);
+  outline: none;
 }
 
 .progress-container {
@@ -309,5 +316,14 @@ select:focus {
 
   .time-input {
     color: #eee;
+  }
+
+  .text-input:focus,
+  .time-input:focus,
+  select:focus {
+    background: #222;
+    color: #eee;
+    border-color: #555;
+    outline: none;
   }
 }
