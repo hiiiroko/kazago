@@ -2,11 +2,8 @@
 
 # Kazago
 
-**A browser extension that helps Arthur Morgan reserve his favorite seat in the Deep South tavern.**
+**A browser extension that helps reserve library seats at CCNU.**
 
-<a href="https://www.rockstargames.com/reddeadredemption2/downloads">
-	<img src="https://custom-icon-badges.herokuapp.com/badge/rdr2-learn_more-FCAF17?logoColor=FCAF17&style=for-the-badge&logo=rockstargames&labelColor=363B40" alt="Learn about RDR2"/></a>
-  
 <a href="mailto:hiiiroko@proton.me">
 	<img src="https://custom-icon-badges.herokuapp.com/badge/mail-contact_me-AE75DA?logoColor=AE75DA&style=for-the-badge&logo=mail&labelColor=363B40" alt="Contact Me"/></a>
   
@@ -16,15 +13,16 @@
 ## Features
 
 - Set your preferred seat and the extension will try to reserve it first.
-- Classic Windows 98 style interface, perfectly fitting the Wild West era.
-- Automatically follows your browser theme, seamless day & night switching.
-- Detailed reservation progress and status display, everything under control.
+- Automatically adjusts default time range based on current date and time (e.g. Friday limits to [08:00–14:00]).
+- Classic Windows 98 style interface.
+- Dark/light theme support, follows your browser setting.
+- Detailed reservation progress and status display.
 
 ## Preview
 
 <p float="left">
-  <img src="https://s2.loli.net/2025/09/19/cdqzgh2IfY6V4Ap.png" width="25%"/>
-  <img src="https://s2.loli.net/2025/09/19/ZsiHM1jeJpmOy2P.png" width="25%"/>
+  <img src="https://s2.loli.net/2025/09/22/FpNsLog6wtAROer.png" width="25%"/>
+  <img src="https://s2.loli.net/2025/09/22/mA96oNGTgHBzpZX.png" width="25%"/>
 </p>
 
 ## Install
@@ -34,33 +32,12 @@
 3. Enable **Developer mode** (top-right toggle).
 4. Click **Load unpacked** and select the project folder.
 
-### Project Structure
-
-```
-kazago/
-├── background.js        # service worker
-├── content.js           # content script
-├── manifest.json        # extension manifest (v3)
-├── popup.html           # popup window
-├── popup.css            # retro styles
-├── popup.js             # popup logic
-├── utils.js             # shared utilities
-├── icons/               # extension icons
-│   ├── icon16.png
-│   ├── icon32.png
-│   ├── icon48.png
-│   └── icon128.png
-└── assets/
-    ├── LOGO.png
-    └── ChillBitmap.ttf  # pixel font
-```
-
 ## Acknowledgements
 
 Kazago is inspired by or built upon:
 
 - [98.css](https://github.com/jdan/98.css) – Windows 98 style CSS framework
-- [ChillBitmap](https://github.com/Warren2060/ChillBitmap) – beautiful pixel bitmap font
+- [ChillBitmap](https://github.com/Warren2060/ChillBitmap) – pixel bitmap font
 - [Lruler](https://github.com/Lruler) – original extension idea
 
 ## License
